@@ -10,6 +10,8 @@ Gem::Specification.new do |spec|
                          'Rakefile',
                          'README.rdoc',
                          'lib/**/*',
+                         'vendor/assets/leaflet/dist/*.css',
+                         'vendor/assets/leaflet/dist/images/*.png',
                          'vendor/assets/leaflet/src/**/*.js',
                          'vendor/assets/javascripts/*.js'])
   spec.required_ruby_version = '>= 1.8.7'
