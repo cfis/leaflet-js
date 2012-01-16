@@ -10,10 +10,10 @@ EOS
   spec.authors = ['Charlie Savage']
   spec.platform = Gem::Platform::RUBY
   spec.files = Dir.glob(['leaflet-ruby.gemspec',
-                         'CHANGELOG.md',
+                         'CHANGELOG.rdoc',
                          'LICENSE',
                          'Rakefile',
-                         'README.md',
+                         'README.rdoc',
                          'lib/leaflet-ruby.rb',
                          'lib/zerista/*',
                          'lib/leaflet/**/*',
