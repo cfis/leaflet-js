@@ -136,4 +136,3 @@
 // Zerista additions
 //=require ../../../lib/zerista/CRS.Cartesian.js
 //=require ../../../lib/zerista/Projection.Identity.js
-//=require ../../../lib/zerista/zerista_layer.js
