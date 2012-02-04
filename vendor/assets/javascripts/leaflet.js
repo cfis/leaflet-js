@@ -127,7 +127,7 @@
 // AnimationPan
 //=require ../../../lib/leaflet/src/map/anim/Map.PanAnimation.js
 
-// AnimationZoom: {
+// AnimationZoom
 //=require ../../../lib/leaflet/src/map/anim/Map.ZoomAnimation.js
 
 // Geolocation
