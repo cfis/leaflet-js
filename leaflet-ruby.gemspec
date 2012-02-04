@@ -1,7 +1,7 @@
 # encoding: utf-8
 Gem::Specification.new do |spec|
   spec.name        = 'leaflet-ruby'
-  spec.version     = '0.3.beta3'
+  spec.version     = '0.3.beta4'
   spec.homepage    = 'https://github.com/cfis/leaflet-ruby'
   spec.summary     = <<-EOS
 Wraps the Leaflet Javascript Mapping Library in a Rails asset gem.  For more information
@@ -17,8 +17,9 @@ EOS
                          'lib/leaflet-ruby.rb',
                          'lib/zerista/*',
                          'lib/leaflet/**/*',
-                         'vendor/assets/stylesheets/*.css',
-                         'vendor/assets/javascripts/*.js'])
+                         'vendor/assets/images/*',
+                         'vendor/assets/stylesheets/*',
+                         'vendor/assets/javascripts/*'])
   spec.required_ruby_version = '>= 1.8.7'
   spec.date = Time.now
 end

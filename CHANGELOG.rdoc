@@ -1,10 +1,16 @@
 = leaflet-ruby Changelog
 
-=== 0.3.beta3
+=== 0.3.beta4 (February 3, 2012)
+* Copy images to vendor/assets/images so they are precompiled correctly.
+* Copy stylesheets to vendor/assets/stylesheets and then update.
+* Modify stylesheets to use asset_path for background images so that 
+  precompiling works correctly.
+
+=== 0.3.beta3 (January 17, 2012)
 * Remove zerista_layer.js to remove depedency on jQuery.
 
-=== 0.3.beta2
+=== 0.3.beta2 (January 17, 2012)
 * Withdrawn
 
-=== 0.3.beta1
+=== 0.3.beta1 (January 16, 2012)
 * First release, wraps the current master version of Leaflet 0.3 which is not yet released.
