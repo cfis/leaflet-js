@@ -39,6 +39,9 @@
 //=require ../../../lib/leaflet/src/layer/marker/Icon.js
 //=require ../../../lib/leaflet/src/layer/marker/Marker.js
 
+// DivIcon
+//=require ../../../lib/leaflet/src/layer/marker/DivIcon.js
+
 // Popup
 //=require ../../../lib/leaflet/src/layer/Popup.js
 //=require ../../../lib/leaflet/src/layer/marker/Marker.Popup.js
@@ -69,14 +72,16 @@
 // MultiPoly
 //=require ../../../lib/leaflet/src/layer/vector/MultiPoly.js
 
+// Rectangle
+//=require ../../../lib/leaflet/src/layer/vector/Rectangle.js
+
 // Circle
 //=require ../../../lib/leaflet/src/layer/vector/Circle.js
 
 // CircleMarker
 //=require ../../../lib/leaflet/src/layer/vector/CircleMarker.js
 
-// PathCanvas
-//=require ../../../lib/leaflet/src/layer/vector/canvas/Path.Canvas.js
+// VectorsCanvas
 //=require ../../../lib/leaflet/src/layer/vector/canvas/Polyline.Canvas.js
 //=require ../../../lib/leaflet/src/layer/vector/canvas/Polygon.Canvas.js
 //=require ../../../lib/leaflet/src/layer/vector/canvas/Circle.Canvas.js
@@ -93,7 +98,6 @@
 // MouseZoom
 //=require ../../../lib/leaflet/src/map/handler/Map.DoubleClickZoom.js
 //=require ../../../lib/leaflet/src/map/handler/Map.ScrollWheelZoom.js
-
 
 // TouchZoom
 //=require ../../../lib/leaflet/src/dom/DomEvent.DoubleTap.js
@@ -113,9 +117,11 @@
 // ControlAttrib
 //=require ../../../lib/leaflet/src/control/Control.Attribution.js
 
+// ControlScale
+//=require ../../../lib/leaflet/src/control/Control.Scale.js
+
 // ControlLayers
 //=require ../../../lib/leaflet/src/control/Control.Layers.js
-
 
 // AnimationNative
 //=require ../../../lib/leaflet/src/dom/transition/Transition.js
