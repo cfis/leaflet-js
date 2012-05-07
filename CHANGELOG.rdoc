@@ -1,5 +1,8 @@
 = leaflet-ruby Changelog
 
+=== 0.4.beta1 (May 6, 2012)
+* Update to latest version of leaflet (0.4 master)
+
 === 0.3.beta4 (February 3, 2012)
 * Copy images to vendor/assets/images so they are precompiled correctly.
 * Copy stylesheets to vendor/assets/stylesheets and then update.
