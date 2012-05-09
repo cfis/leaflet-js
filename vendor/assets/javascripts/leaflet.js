@@ -14,9 +14,12 @@
 //=require ../../../lib/leaflet/src/geo/projection/Projection.js
 //=require ../../../lib/leaflet/src/geo/projection/Projection.SphericalMercator.js
 //=require ../../../lib/leaflet/src/geo/projection/Projection.LonLat.js
+//=require ../../../lib/leaflet/src/geo/projection/Projection.Identity.js
 //=require ../../../lib/leaflet/src/geo/crs/CRS.js
 //=require ../../../lib/leaflet/src/geo/crs/CRS.EPSG3857.js
 //=require ../../../lib/leaflet/src/geo/crs/CRS.EPSG4326.js
+//=require ../../../lib/leaflet/src/geo/crs/CRS.Cartesian.js
+
 //=require ../../../lib/leaflet/src/map/Map.js
 
 // EPSG3395
@@ -138,7 +141,3 @@
 
 // Geolocation
 //=require ../../../lib/leaflet/src/map/ext/Map.Geolocation.js
-
-// Zerista additions
-//=require ../../../lib/zerista/CRS.Cartesian.js
-//=require ../../../lib/zerista/Projection.Identity.js
