@@ -1,11 +1,10 @@
 module Leaflet
   class Engine < Rails::Engine
     initializer :append_assets_path do |app|
-      # To link to javascripts
+      # Javascripts
       app.config.assets.paths << File.join(config.root, 'lib', 'leaflet', 'src')
-
-      # For additional files
-      app.config.assets.paths << File.join(config.root, 'lib', 'zerista')
+      app.config.assets.paths << File.join(config.root, 'lib', 'leaflet.draw', 'src')
+      app.config.assets.paths << File.join(config.root, 'lib', 'leaflet.label', 'src')
     end
   end
-end
+e

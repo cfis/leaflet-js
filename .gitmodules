@@ -1,3 +1,9 @@
 [submodule "leaflet"]
 	path = lib/leaflet
-	url = git://github.com/cfis/Leaflet.git
+	url = git://github.com/Leaflet/Leaflet.git
+[submodule "lib/leaflet.label"]
+	path = lib/leaflet.label
+	url = git://github.com/Leaflet/Leaflet.label.git
+[submodule "lib/leaflet.draw"]
+	path = lib/leaflet.draw
+	url = git://github.com/Leaflet/Leaflet.draw.git

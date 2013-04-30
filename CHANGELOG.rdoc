@@ -1,5 +1,10 @@
 = leaflet-ruby Changelog
 
+=== 0.6.beta1 (April 30, 2013)
+* Update to latest version of leaflet (0.6 master)
+* Add in leaflet label
+* Add in leaflet draw
+
 === 0.4.beta1 (May 6, 2012)
 * Update to latest version of leaflet (0.4 master)
 

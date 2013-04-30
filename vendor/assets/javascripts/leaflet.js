@@ -14,12 +14,10 @@
 //=require ../../../lib/leaflet/src/geo/projection/Projection.js
 //=require ../../../lib/leaflet/src/geo/projection/Projection.SphericalMercator.js
 //=require ../../../lib/leaflet/src/geo/projection/Projection.LonLat.js
-//=require ../../../lib/leaflet/src/geo/projection/Projection.Identity.js
 //=require ../../../lib/leaflet/src/geo/crs/CRS.js
+//=require ../../../lib/leaflet/src/geo/crs/CRS.Simple.js
 //=require ../../../lib/leaflet/src/geo/crs/CRS.EPSG3857.js
 //=require ../../../lib/leaflet/src/geo/crs/CRS.EPSG4326.js
-//=require ../../../lib/leaflet/src/geo/crs/CRS.Cartesian.js
-
 //=require ../../../lib/leaflet/src/map/Map.js
 
 // EPSG3395
@@ -40,6 +38,7 @@
 
 // Marker
 //=require ../../../lib/leaflet/src/layer/marker/Icon.js
+//=require ../../../lib/leaflet/src/layer/marker/Icon.Default.js
 //=require ../../../lib/leaflet/src/layer/marker/Marker.js
 
 // DivIcon
@@ -48,7 +47,6 @@
 // Popup
 //=require ../../../lib/leaflet/src/layer/Popup.js
 //=require ../../../lib/leaflet/src/layer/marker/Marker.Popup.js
-//=require ../../../lib/leaflet/src/map/ext/Map.Popup.js
 
 // LayerGroup:
 //=require ../../../lib/leaflet/src/layer/LayerGroup.js
@@ -63,6 +61,9 @@
 
 // PathVML
 //=require ../../../lib/leaflet/src/layer/vector/Path.VML.js
+
+// PathCanvas
+//=require ../../../lib/leaflet/src/layer/vector/Path.Canvas.js
 
 // Polyline
 //=require ../../../lib/leaflet/src/geometry/LineUtil.js
@@ -104,17 +105,20 @@
 
 // TouchZoom
 //=require ../../../lib/leaflet/src/dom/DomEvent.DoubleTap.js
+//=require ../../../lib/leaflet/src/dom/DomEvent.MsTouch.js
 //=require ../../../lib/leaflet/src/map/handler/Map.TouchZoom.js
 
 // BoxZoom
 //=require ../../../lib/leaflet/src/map/handler/Map.BoxZoom.js
+
+// Keyboard
+//=require ../../../lib/leaflet/src/layer/marker/Map.Keyboard.js
 
 // MarkerDrag
 //=require ../../../lib/leaflet/src/layer/marker/Marker.Drag.js
 
 // ControlZoom
 //=require ../../../lib/leaflet/src/control/Control.js
-//=require ../../../lib/leaflet/src/map/ext/Map.Control.js
 //=require ../../../lib/leaflet/src/control/Control.Zoom.js
 
 // ControlAttrib
@@ -126,18 +130,16 @@
 // ControlLayers
 //=require ../../../lib/leaflet/src/control/Control.Layers.js
 
-// AnimationNative
-//=require ../../../lib/leaflet/src/dom/transition/Transition.js
-//=require ../../../lib/leaflet/src/dom/transition/Transition.Native.js
+// AnimationPan
+//=require ../../../lib/leaflet/src/dom/PosAnimation.js
+//=require ../../../lib/leaflet/src/map/anim/Map.PanAnimation.js
 
 // AnimationTimer
 //=require ../../../lib/leaflet/src/dom/transition/Transition.Timer.js
 
-// AnimationPan
-//=require ../../../lib/leaflet/src/map/anim/Map.PanAnimation.js
-
 // AnimationZoom
 //=require ../../../lib/leaflet/src/map/anim/Map.ZoomAnimation.js
+//=require ../../../lib/leaflet/src/layer/tile/TileLayer.Anim.js
 
 // Geolocation
 //=require ../../../lib/leaflet/src/map/ext/Map.Geolocation.js
