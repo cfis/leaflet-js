@@ -63,7 +63,7 @@
 //=require ../../../lib/leaflet/src/layer/vector/Path.VML.js
 
 // PathCanvas
-//=require ../../../lib/leaflet/src/layer/vector/Path.Canvas.js
+//=require ../../../lib/leaflet/src/layer/vector/Canvas/Path.Canvas.js
 
 // Polyline
 //=require ../../../lib/leaflet/src/geometry/LineUtil.js
@@ -112,7 +112,7 @@
 //=require ../../../lib/leaflet/src/map/handler/Map.BoxZoom.js
 
 // Keyboard
-//=require ../../../lib/leaflet/src/layer/marker/Map.Keyboard.js
+//=require ../../../lib/leaflet/src/map/handler/Map.Keyboard.js
 
 // MarkerDrag
 //=require ../../../lib/leaflet/src/layer/marker/Marker.Drag.js
@@ -135,7 +135,7 @@
 //=require ../../../lib/leaflet/src/map/anim/Map.PanAnimation.js
 
 // AnimationTimer
-//=require ../../../lib/leaflet/src/dom/transition/Transition.Timer.js
+//=require ../../../lib/leaflet/src/dom/PosAnimation.Timer.js
 
 // AnimationZoom
 //=require ../../../lib/leaflet/src/map/anim/Map.ZoomAnimation.js

@@ -7,4 +7,4 @@ module Leaflet
       app.config.assets.paths << File.join(config.root, 'lib', 'leaflet.label', 'src')
     end
   end
-e
+end
