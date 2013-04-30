@@ -1,15 +1,15 @@
-= Leaflet Ruby
+= Leaflet Rails
 
 == Overview
-leaflet-ruby wraps the Leaflet Javascript library in an asset gem so it can
-easily be used with Rails.  For more information about the Leaflet library, 
-please visit http://leaflet.cloudmade.com/.
+leaflet-rails wraps the Leaflet Javascript library in an asset gem so it can
+easily be used with Rails.  It also includes the Leaflet.Label and Leaflet.Draw
+plusins.  For more information about the Leaflet library, please visit http://leafletjs.com.
 
 == Installation
 
 In your Gemfile, add this line:
 
-gem "leaflet-ruby"
+gem "leaflet-rails"
 
 Then, run bundle install. You're done!
 
@@ -23,33 +23,32 @@ Leaflet provides the following assets:
 === Javascripts
 
 leaflet.js
+leaflet.draw.js
+leaflet.label.js
 
 === Stylesheets
 
 leaflet.css
 leaflet.ie.css
+leaflet.draw.css
+leaflet.draw.ie.css
+leaflet.label.css
 
 === Images
 
 layers.png
-marker.png
+marker-icon.png
+marker-icon@2x.png
 market-shadow.png
-popup-close.png
-zoom-in.png
-zoom-out.png
-
-== Versions
-
-The version number of the leaflet-ruby gem matches the version number of the leaflet library
-that it wraps.  Thus if you want to use Leaflet version 0.3 you should use leaflet-ruby-0.3.gem.
+spritesheet.png
 
 == Support
 
 If you have any questions about leaflet, please refer them to the Leaflet maintainers at
-http://leaflet.cloudmade.com.  If you have any questions about how leaflet-ruby wraps
-leaflet, then please refer to https://github.com/cfis/leaflet-ruby.
+http://leafletjs.com.  If you have any questions about how leaflet-rails wraps
+leaflet, then please refer to https://github.com/cfis/leaflet-rails.
 
 == License
 
-See LICENSE for license information about leaflet-ruby.  Please note that the Leaflet project 
+See LICENSE for license information about leaflet-rails.  Please note that the Leaflet project
 has its own LICENSE file also.
