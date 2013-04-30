@@ -1,4 +1,4 @@
-= leaflet-ruby Changelog
+= leaflet-js Changelog
 
 === 0.6.beta1 (April 30, 2013)
 * Update to latest version of leaflet (0.6 master)

@@ -1,7 +1,7 @@
-= Leaflet Rails
+= Leaflet JS Rails
 
 == Overview
-leaflet-rails wraps the Leaflet Javascript library in an asset gem so it can
+leaflet-js wraps the Leaflet Javascript library in an asset gem so it can
 easily be used with Rails.  It also includes the Leaflet.Label and Leaflet.Draw
 plusins.  For more information about the Leaflet library, please visit http://leafletjs.com.
 
@@ -9,7 +9,7 @@ plusins.  For more information about the Leaflet library, please visit http://le
 
 In your Gemfile, add this line:
 
-gem "leaflet-rails"
+gem "leaflet-js"
 
 Then, run bundle install. You're done!
 
@@ -45,10 +45,10 @@ spritesheet.png
 == Support
 
 If you have any questions about leaflet, please refer them to the Leaflet maintainers at
-http://leafletjs.com.  If you have any questions about how leaflet-rails wraps
-leaflet, then please refer to https://github.com/cfis/leaflet-rails.
+http://leafletjs.com.  If you have any questions about how leaflet-js wraps
+leaflet, then please refer to https://github.com/cfis/leaflet-js.
 
 == License
 
-See LICENSE for license information about leaflet-rails.  Please note that the Leaflet project
+See LICENSE for license information about leaflet-js.  Please note that the Leaflet project
 has its own LICENSE file also.
