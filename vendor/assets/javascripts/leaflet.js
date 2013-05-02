@@ -63,7 +63,7 @@
 //=require ../../../lib/leaflet/src/layer/vector/Path.VML.js
 
 // PathCanvas
-//=require ../../../lib/leaflet/src/layer/vector/Canvas/Path.Canvas.js
+//=require ../../../lib/leaflet/src/layer/vector/canvas/Path.Canvas.js
 
 // Polyline
 //=require ../../../lib/leaflet/src/geometry/LineUtil.js

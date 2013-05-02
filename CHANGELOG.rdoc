@@ -1,5 +1,13 @@
 = leaflet-js Changelog
 
+=== 0.6.beta4 (May 2, 2013)
+* Unix is case senstive!
+
+=== 0.6.beta2 (April 30, 2013)
+* Update to latest version of leaflet (0.6 master)
+* Add in leaflet label
+* Add in leaflet draw
+
 === 0.6.beta1 (April 30, 2013)
 * Update to latest version of leaflet (0.6 master)
 * Add in leaflet label
