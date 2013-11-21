@@ -105,7 +105,7 @@
 
 // TouchZoom
 //=require ../../../lib/leaflet/src/dom/DomEvent.DoubleTap.js
-//=require ../../../lib/leaflet/src/dom/DomEvent.MsTouch.js
+//=require ../../../lib/leaflet/src/dom/DomEvent.Pointer.js
 //=require ../../../lib/leaflet/src/map/handler/Map.TouchZoom.js
 
 // BoxZoom
