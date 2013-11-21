@@ -18,6 +18,7 @@
 
 // Extensions
 //=require ../../../lib/leaflet.draw/src/ext/LatLngUtil.js
+//=require ../../../lib/leaflet.draw/src/ext/GeometryUtil.js
 //=require ../../../lib/leaflet.draw/src/ext/LineUtil.Intersect.js
 //=require ../../../lib/leaflet.draw/src/ext/Polyline.Intersect.js
 //=require ../../../lib/leaflet.draw/src/ext/Polygon.Intersect.js
@@ -27,10 +28,7 @@
 //=require ../../../lib/leaflet.draw/src/Toolbar.js
 //=require ../../../lib/leaflet.draw/src/Tooltip.js
 
-// CommonUI
-//=require ../../../lib/leaflet.draw/src/draw/DrawToolbar.js
-
-// CommonUI
+// DrawUI
 //=require ../../../lib/leaflet.draw/src/draw/DrawToolbar.js
 
 // EditUI

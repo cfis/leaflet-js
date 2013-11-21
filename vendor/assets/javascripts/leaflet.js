@@ -89,6 +89,7 @@
 //=require ../../../lib/leaflet/src/layer/vector/canvas/Polyline.Canvas.js
 //=require ../../../lib/leaflet/src/layer/vector/canvas/Polygon.Canvas.js
 //=require ../../../lib/leaflet/src/layer/vector/canvas/Circle.Canvas.js
+//=require ../../../lib/leaflet/src/layer/vector/canvas/CircleMarker.Canvas.js
 
 // GeoJSON
 //=require ../../../lib/leaflet/src/layer/GeoJSON.js
@@ -107,6 +108,7 @@
 //=require ../../../lib/leaflet/src/dom/DomEvent.DoubleTap.js
 //=require ../../../lib/leaflet/src/dom/DomEvent.Pointer.js
 //=require ../../../lib/leaflet/src/map/handler/Map.TouchZoom.js
+//=require ../../../lib/leaflet/src/map/handler/Map.Tap.js
 
 // BoxZoom
 //=require ../../../lib/leaflet/src/map/handler/Map.BoxZoom.js
