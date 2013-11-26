@@ -1,5 +1,8 @@
 = leaflet-js Changelog
 
+=== 0.7.0.2 (November 25, 2013)
+* Ungroup assets, that idea did not work very well.
+
 === 0.7.0.1 (November 25, 2013)
 * Rearrange gem structure to group leaflet assets together
 
