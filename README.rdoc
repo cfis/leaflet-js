@@ -47,9 +47,11 @@ spritesheet-2x.png
 
 Note when using Rails in production, with asset digests on, the Leaflet.Draw marker tool will not display
 an icon. The issue is that images included in this gem will be have a digest added to their name.  However,
-the leaflet javascript code will be looking for images/marker-icon.png or images/marker-icon-2x.png.
-The easiest solution to this issue is to copy the images to your public/images folder and not use
-them via the asset pipeline.
+the leaflet javascript code will be looking for asset/images/marker-icon.png or
+assets/images/marker-icon-2x.png.
+
+One solution is to copy the images to your public/images folder.  Then you have to tell leaflet about the
+path by setting L.Icon.Default.imagePath to '/images'
 
 == Support
 
