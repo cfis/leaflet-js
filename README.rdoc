@@ -15,32 +15,35 @@ Then, run bundle install. You're done!
 
 == Usage
 
-Leaflet provides javascript, css and image assets.  To use these assets in your project, either 
-require the files below from your erb files or add them to your top level application.js and css files.
-
-Leaflet provides the following assets:
+Leaflet provides javascript, css and image assets.  The easiest way to use these assets in your project is to
+include leaflet-js.js and leaflet-js.css in your application.js and application.css files.  You may also
+pick just the files you want to use in your project.
 
 === Javascripts
 
+leaflet-js.js <- Includes all the js files below
 leaflet.js
 leaflet.draw.js
 leaflet.label.js
 
 === Stylesheets
 
+leaflet-js.css <- Includes all the css files below
 leaflet.css
-leaflet.ie.css
 leaflet.draw.css
 leaflet.draw.ie.css
 leaflet.label.css
 
 === Images
 
-layers.png
-marker-icon.png
-marker-icon@2x.png
-market-shadow.png
-spritesheet.png
+leaflet-js/layers.png
+leaflet-js/layers-2x.png
+leaflet-js/marker-icon.png
+leaflet-js/marker-icon-2x.png
+leaflet-js/market-shadow.png
+leaflet-js/market-shadow-2x.png
+leaflet-js/spritesheet.png
+leaflet-js/spritesheet-2x.png
 
 == Support
 
