@@ -15,21 +15,21 @@ Then, run bundle install. You're done!
 
 == Usage
 
-Leaflet provides javascript, css and image assets.  To use these assets in your project, either 
-require the files below from your erb files or add them to your top level application.js and css files.
-
-Leaflet provides the following assets:
+Leaflet provides javascript, css and image assets.  The easiest way to use these assets in your project is to
+include leaflet-js.js and leaflet-js.css in your application.js and application.css files.  You may also
+pick just the files you want to use in your project.
 
 === Javascripts
 
+leaflet-js.js <- Includes all the js files below
 leaflet.js
 leaflet.draw.js
 leaflet.label.js
 
 === Stylesheets
 
+leaflet-js.css <- Includes all the css files below
 leaflet.css
-leaflet.ie.css
 leaflet.draw.css
 leaflet.draw.ie.css
 leaflet.label.css
@@ -37,10 +37,21 @@ leaflet.label.css
 === Images
 
 layers.png
+layers-2x.png
 marker-icon.png
-marker-icon@2x.png
+marker-icon-2x.png
 market-shadow.png
+market-shadow-2x.png
 spritesheet.png
+spritesheet-2x.png
+
+Note when using Rails in production, with asset digests on, the Leaflet.Draw marker tool will not display
+an icon. The issue is that images included in this gem will be have a digest added to their name.  However,
+the leaflet javascript code will be looking for asset/images/marker-icon.png or
+assets/images/marker-icon-2x.png.
+
+One solution is to copy the images to your public/images folder.  Then you have to tell leaflet about the
+path by setting L.Icon.Default.imagePath to '/images'
 
 == Support
 
