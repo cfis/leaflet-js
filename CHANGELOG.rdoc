@@ -1,6 +1,6 @@
 = leaflet-js Changelog
 
-=== 0.8 (January 28, 2014)
+=== 0.8.dev1 (January 28, 2014)
 * Update to latest version of leaflet (0.8 master)
 
 === 0.7.0.2 (November 25, 2013)
