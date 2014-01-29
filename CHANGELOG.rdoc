@@ -1,5 +1,8 @@
 = leaflet-js Changelog
 
+=== 0.8 (January 28, 2014)
+* Update to latest version of leaflet (0.8 master)
+
 === 0.7.0.2 (November 25, 2013)
 * Ungroup assets, that idea did not work very well.
 
