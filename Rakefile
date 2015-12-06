@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 
-require "rubygems"
-require "rubygems/package_task"
+require 'rubygems'
+require 'rubygems/package_task'
 
-GEM_NAME = "leaflet-js"
+GEM_NAME = 'leaflet-js'
 
 # Read the spec file
 spec = Gem::Specification.load("#{GEM_NAME}.gemspec")
