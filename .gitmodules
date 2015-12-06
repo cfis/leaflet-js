@@ -1,9 +1,9 @@
-[submodule "leaflet"]
-	path = vendor/leaflet
-	url = git://github.com/Leaflet/Leaflet.git
-[submodule "lib/leaflet.label"]
-	path = vendor/leaflet.label
-	url = git://github.com/Leaflet/Leaflet.label.git
-[submodule "lib/leaflet.draw"]
-	path = vendor/leaflet.draw
-	url = git://github.com/Leaflet/Leaflet.draw.git
+[submodule "vendor/assets/Leaflet"]
+	path = vendor/assets/Leaflet
+	url = git@github.com:Leaflet/Leaflet.git
+[submodule "vendor/assets/Leaflet.label"]
+	path = vendor/assets/Leaflet.label
+	url = git@github.com:Leaflet/Leaflet.label.git
+[submodule "vendor/assets/Leaflet.draw"]
+	path = vendor/assets/Leaflet.draw
+	url = git@github.com:Leaflet/Leaflet.draw.git
