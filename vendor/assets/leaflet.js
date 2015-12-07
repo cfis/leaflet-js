@@ -11,28 +11,27 @@
 //=require leaflet/src/dom/DomUtil.js
 //=require leaflet/src/geo/LatLng.js
 //=require leaflet/src/geo/LatLngBounds.js
-//=require leaflet/src/geo/projection/Projection.LonLat.js
+//=require leaflet/src/geo/projection/Projection.js
 //=require leaflet/src/geo/projection/Projection.SphericalMercator.js
+//=require leaflet/src/geo/projection/Projection.LonLat.js
 //=require leaflet/src/geo/crs/CRS.js
 //=require leaflet/src/geo/crs/CRS.Simple.js
-//=require leaflet/src/geo/crs/CRS.Earth.js
 //=require leaflet/src/geo/crs/CRS.EPSG3857.js
 //=require leaflet/src/geo/crs/CRS.EPSG4326.js
 //=require leaflet/src/map/Map.js
-//=require leaflet/src/layer/Layer.js
 
 // EPSG3395
 //=require leaflet/src/geo/projection/Projection.Mercator.js
 //=require leaflet/src/geo/crs/CRS.EPSG3395.js
-
-// Grid Layer
-//=require leaflet/src/layer/tile/GridLayer.js
 
 // TileLayer
 //=require leaflet/src/layer/tile/TileLayer.js
 
 // TileLayerWMS
 //=require leaflet/src/layer/tile/TileLayer.WMS.js
+
+// TileLayerCanvas
+//=require leaflet/src/layer/tile/TileLayer.Canvas.js
 
 // ImageOverlay
 //=require leaflet/src/layer/ImageOverlay.js
@@ -47,7 +46,6 @@
 
 // Popup
 //=require leaflet/src/layer/Popup.js
-//=require leaflet/src/layer/Layer.Popup.js
 //=require leaflet/src/layer/marker/Marker.Popup.js
 
 // LayerGroup:
@@ -57,8 +55,15 @@
 //=require leaflet/src/layer/FeatureGroup.js
 
 // Path
-//=require leaflet/src/layer/vector/Renderer.js
 //=require leaflet/src/layer/vector/Path.js
+//=require leaflet/src/layer/vector/Path.SVG.js
+//=require leaflet/src/layer/vector/Path.Popup.js
+
+// PathVML
+//=require leaflet/src/layer/vector/Path.VML.js
+
+// PathCanvas
+//=require leaflet/src/layer/vector/canvas/Path.Canvas.js
 
 // Polyline
 //=require leaflet/src/geometry/LineUtil.js
@@ -67,24 +72,24 @@
 // Polygon
 //=require leaflet/src/geometry/PolyUtil.js
 //=require leaflet/src/layer/vector/Polygon.js
-  
+
+// MultiPoly
+//=require leaflet/src/layer/vector/MultiPoly.js
+
 // Rectangle
 //=require leaflet/src/layer/vector/Rectangle.js
-
-// CircleMarker
-//=require leaflet/src/layer/vector/CircleMarker.js
 
 // Circle
 //=require leaflet/src/layer/vector/Circle.js
 
-// SVG
-//=require leaflet/src/layer/vector/SVG.js
+// CircleMarker
+//=require leaflet/src/layer/vector/CircleMarker.js
 
-// VML
-//=require leaflet/src/layer/vector/SVG.VML.js
-
-// Canvas
-//=require leaflet/src/layer/vector/Canvas.js
+// VectorsCanvas
+//=require leaflet/src/layer/vector/canvas/Polyline.Canvas.js
+//=require leaflet/src/layer/vector/canvas/Polygon.Canvas.js
+//=require leaflet/src/layer/vector/canvas/Circle.Canvas.js
+//=require leaflet/src/layer/vector/canvas/CircleMarker.Canvas.js
 
 // GeoJSON
 //=require leaflet/src/layer/GeoJSON.js
@@ -144,6 +149,7 @@
 
 // AnimationZoom
 //=require leaflet/src/map/anim/Map.ZoomAnimation.js
+//=require leaflet/src/layer/tile/TileLayer.Anim.js
 
 // Geolocation
 //=require leaflet/src/map/ext/Map.Geolocation.js

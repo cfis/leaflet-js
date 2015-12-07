@@ -11,6 +11,7 @@
 //=require leaflet.draw/src/draw/handler/Draw.Marker.js
 
 // EditHandlers
+//=require leaflet.draw/src/edit/handler/Edit.Marker.js
 //=require leaflet.draw/src/edit/handler/Edit.Poly.js
 //=require leaflet.draw/src/edit/handler/Edit.SimpleShape.js
 //=require leaflet.draw/src/edit/handler/Edit.Rectangle.js
