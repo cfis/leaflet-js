@@ -1,7 +1,9 @@
 = leaflet-js Changelog
 
+=== 0.7.9 (December 10, 2015)
+* Create images directory to work with asset pipeline
+
 === 0.7.8 (December 10, 2015)
-* Update to leaflet 0.7.7
 * Fix case sensitivity issue
 
 === 0.7.7 (December 6, 2015)
