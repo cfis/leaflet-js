@@ -3,7 +3,7 @@
 == Overview
 leaflet-js wraps the Leaflet Javascript library in an asset gem so it can
 easily be used with Rails.  It also includes the Leaflet.Label and Leaflet.Draw
-plusins.  For more information about the Leaflet library, please visit http://leafletjs.com.
+plugins.  For more information about the Leaflet library, please visit http://leafletjs.com.
 
 == Installation
 
