@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.homepage    = 'https://github.com/cfis/leaflet-js'
   spec.summary     = <<-EOS
 Wraps the Leaflet Javascript Mapping Library in a Rails asset gem. Also include Leaflet.Label
-and Leaflet.Draw plusins.  For more information
+and Leaflet.Draw plugins.  For more information
 about Leaflet please see http://leafletjs.com/
 EOS
 
